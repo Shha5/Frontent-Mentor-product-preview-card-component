@@ -1,0 +1,119 @@
+:root {
+    --background-color: hsl(30, 38%, 92%);
+    --card-color: hsl(0, 0%, 100%);
+    --accent-button-color: hsl(158, 36%, 37%);
+    --sm-text-color: hsl(228, 12%, 48%);
+    --product-name-color: hsl(212, 21%, 14%);
+    --hover-focus-color: hsl(156, 42%, 18%);
+    --basic-font-family: Montserrat;
+    --accent-font-family: "Fraunces";
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+
+.product-card {
+    
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+    background-color: var(--card-color);
+    overflow:;
+}
+
+@media screen and (max-width: 480px){
+    .product-card {
+        border-radius: 20px 20px 20px 20px;
+        flex-direction: column;
+        max-width: 345px;
+    }
+
+    .product-picture {
+        border-radius: 20px 20px 0px 0px;
+        max-width: 100%;
+        max-height: 50%
+    }
+}
+
+@media screen and (min-width: 481px){
+    .product-card {
+        border-radius: 20px 20px 20px 20px;
+        flex-direction: row;
+        max-width: 600px;
+    }
+
+    .product-picture {
+        border-radius: 20px 0px 0px 20px;
+        max-width: 50%;
+        max-height: 100%
+        
+    }
+}
+
+
+.product-category {
+    font-family: var(--basic-font-family);
+    font-size: .8rem;
+    /* znaleźć jak zrobić, żeby był większy space między literami */
+}
+
+.product-name {
+font-family: var(--accent-font-family);
+font-weight: 700;
+font-size: 2rem;
+
+}
+
+.product-description {
+    font-family: var(--basic-font-family);
+}
+
+.current-price {
+    font-family: var(--accent-font-family);
+    color: var(--accent-button-color);
+}
+
+.old-price {
+    font-family: var(--basic-font-family);
+    
+}
+
+.left{
+    
+}
+
+.price-info {
+    display: flex;
+    flex-direction: row;
+    
+}
+.add-to-cart {
+    font-family: var(--basic-font-family);
+    background-color: var(--accent-button-color);
+    border-color: var(--accent-button-color);
+    border-radius: 10%;
+    
+
+}
+
+footer {
+    
+    bottom: 2%;
+    position: fixed;
+    text-align: center;
+    font-family: var(--basic-font-family);
+    font-size: .7rem;
+}
