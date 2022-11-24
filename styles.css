@@ -137,6 +137,8 @@ line-height: 1em;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    font-family: var(--basic-font-family);
+    font-weight: var(--button-accent-font-weight);
     border:0;
     margin: 1.2em 0em 0em 0em;
     background-color: var(--accent-button-color);
@@ -146,16 +148,11 @@ line-height: 1em;
     color:hsl(0, 0%, 100%)
     
     
+    
 }
 
 .add-to-cart-button:focus, .add-to-cart-button:hover {
     background-color: var(--hover-focus-color);
-}
-
-
-.button-text {
-    font-family: var(--basic-font-family);
-    font-weight: var(--button-accent-font-weight);
 }
 
 .cart-icon {
