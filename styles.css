@@ -167,6 +167,7 @@ line-height: 1em;
 
 footer {
     flex-shrink: 0;
+    margin-bottom: 5px;
     color: var(--sm-text-color);
     text-align: center;
     font-family: var(--basic-font-family);
