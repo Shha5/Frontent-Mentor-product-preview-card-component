@@ -148,6 +148,11 @@ line-height: 1em;
     
 }
 
+.add-to-cart-button:focus, .add-to-cart-button:hover {
+    background-color: var(--hover-focus-color);
+}
+
+
 .button-text {
     font-family: var(--basic-font-family);
     font-weight: var(--button-accent-font-weight);
@@ -162,7 +167,12 @@ line-height: 1em;
 
 footer {
     flex-shrink: 0;
+    color: var(--sm-text-color);
     text-align: center;
     font-family: var(--basic-font-family);
     font-size: .7rem;
+}
+
+a {
+    color: var(--accent-button-color);
 }
