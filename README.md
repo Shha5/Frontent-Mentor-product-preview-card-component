@@ -16,8 +16,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Author](#author)
 
 
-
-
 ### The challenge
 
 Users should be able to:
@@ -26,6 +24,9 @@ Users should be able to:
 - See hover and focus states for interactive elements
 
 ### Screenshot
+[Desktop](https://github.com/Shha5/Frontent-Mentor-product-preview-card-component/blob/main/Screenshot-product-preview-card-Shha5-desktop.png)
+[Mobile](https://github.com/Shha5/Frontent-Mentor-product-preview-card-component/blob/main/Screenshot-product-preview-card-Shha5-desktop.png)
+[Desktop active states](https://github.com/Shha5/Frontent-Mentor-product-preview-card-component/blob/main/Screenshot-product-preview-card-Shha5-active-states.png)
 
 
 **Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
@@ -33,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/Shha5/Frontent-Mentor-product-preview-card-component)
-- Live Site URL: ()
+- Live Site URL: (https://fementor-product-card-shha5.vercel.app)
 
 ## My process
 
